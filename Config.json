@@ -1,0 +1,11 @@
+{
+  "TOKEN": "BotのToken",
+  "Links": [
+    {
+      "Guild_ID": "ギルドID",
+      "Channel_ID": "チャンネルID",
+      "WebHook": "WebHook URL",
+      "bot": false
+    }
+  ]
+}
