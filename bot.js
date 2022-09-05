@@ -36,7 +36,7 @@ client.on('messageCreate', message => {
             const webhookClient = new WebhookClient({ id: item.webhookID, token: item.webhookToken });
 
             console.log(send)
-            if (send.content != "" || send.embeds.length != 0 || send.attachments.length != 0)
+            if (send.content != "" || send.embeds.length != 0)
                 webhookClient.send(send);
             return;
         }
